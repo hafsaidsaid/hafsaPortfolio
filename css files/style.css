@@ -95,18 +95,18 @@ button.main-btn:focus::before {
     font-family: 'Work Sans', sans-serif;
 }
 
-*,*::before,*::after {
+/**,*::before,*::after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
+}*/
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    overflow-x: hidden;
+    overflow-x: hidden!important;
 }
 
 ul {
